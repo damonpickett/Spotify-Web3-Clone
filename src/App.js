@@ -18,8 +18,19 @@ const App = () => {
           <span>Search</span>
           <SearchOutlined style={{ fontSize: "30px" }}/>
         </div>
+        <Link to='/'>
+          <p style={{ color: "#1DB894" }}>Home</p>
+        </Link>
+        <p>Your Music</p>
+        <div className="recentPlayed">
+          <p className="recentTitle">RECENTLY PLAYED</p>
+          <div className="install">
+            <span>Install App</span>
+            <DownCircleOutlined style={{ fontSize: "30px" }} />
+          </div>
+        </div>
       </Sider>
-      <Content>
+      <Content className="contentWindow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/album" element={<Album />} />
