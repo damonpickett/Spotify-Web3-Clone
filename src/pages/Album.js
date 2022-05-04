@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 import Opensea from "../images/opensea.png";
 import { ClockCircleOutlined } from "@ant-design/icons";
 
-const Album = () => {
+const Album = ({setNftAlbum}) => {
   
   const {state: album} = useLocation();
 
@@ -98,7 +98,7 @@ const Album = () => {
       </div>
     </div>
     <div className='topBan'>
-      <div className='playButton' onClick={() => console.log("startMusic")}>
+      <div className='playButton' onClick={() => setNftAlbum(albumDetails)}>
         PLAY
       </div>
       <div
