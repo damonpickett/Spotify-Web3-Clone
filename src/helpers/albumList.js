@@ -1,5 +1,10 @@
 export const library = [
     {
+      title: "Web3Work",
+      image: "https://ipfs.moralis.io:2053/ipfs/Qmex6wscR5cHRrdyWm6UZaVnW7obBGWQGebx3ngruytUyi/media/2",
+      contract: "0x1a17aE27ad67Ce36616D16921443C7Ab7C3F0B18"
+    },
+    {
       title: "Hyperspace",
       image:
         "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg"
